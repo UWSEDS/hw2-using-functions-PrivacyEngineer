@@ -44,7 +44,7 @@ data_types_df = list(df.dtypes)
 
 # Comparing the original (raw) dataframe and the new one.
 if test_create_dataframe(raw_df):
-    print("Conditions hold\n")
+    print("\nConditions hold\n")
 else:
     print("Fail: Conditions do not hold\n")
 # Comparing two versions of the original dataframe.
